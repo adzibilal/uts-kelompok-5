@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.img-logo {
+    height: 50px;
+}
+
+.img-hero {
+    aspect-ratio: 21/9;
+    object-fit: cover;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.card {
+    padding: 20px;
+    height: max-content !important;
+    border-radius: 15px;
+    /* box shadow */
+    box-shadow: 10px 10px 28px -14px rgba(0, 0, 0, 0.07);
+    -webkit-box-shadow: 10px 10px 28px -14px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 10px 10px 28px -14px rgba(0, 0, 0, 0.07);
+}
+
+.card:hover {
+    scale: 1.05;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card-img-top {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.card-img-service {
+    border-radius: 10px;
+}
+
+.testimoni-container {
+    background-color: #383838;
+    padding: 50px 250px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cta-container {
+    background-color: #53afbe;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.card-img-team {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.container-login{
+    min-height: 72vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.example-cred {
+    font-size: 12px;
+    opacity: 80%;
+    margin-top: 10px;
+}
+
+.container-home{
+    min-height: 72vh;
+}
+
+@media screen and (max-width: 768px) {
+    .img-hero {
+        aspect-ratio: 16/9;
+    }
+    .testimoni-container {
+        padding: 50px 20px;
+    }
+}
